@@ -12,6 +12,9 @@ body {
 	color: #fff;
 }
 
+* :focus { 
+	outline: none; }
+
 header {
 	height: 928px;
 }
