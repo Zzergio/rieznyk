@@ -80,6 +80,17 @@ a:hover,
 	transition-duration: .3s;
 }
 
+h3 a{
+	font-size: 30px;
+	text-transform: none;
+}
+
+h3 a:hover{
+	background: none;
+	color: #5fdcee;
+	
+}
+
 .black *
 		{
 	color: #000;
@@ -215,6 +226,10 @@ a:hover.down  {
 
 .bg-construction {
 	background: url(../images/bg-construction.jpg) top center no-repeat;
+}
+
+.bg-contacts {
+	background: url(../images/bg/bg-contacts.jpg) top center no-repeat;
 }
 
 .bg1 {
@@ -492,4 +507,54 @@ div.item {
 }
 
 /* Forms */
+
+legend {
+	font-weight: 900;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+	padding-top: 15px;
+}
+
+fieldset {
+	border: 2px solid #000;
+	width: 500px;
+}
+
+label {
+	padding-right: 10px;
+	margin-bottom: 15px;
+}
+
+.message input[type="text"],
+.message input[type="email"],
+.message textarea {
+	padding: 10px;
+	margin-right: 5px;
+	border: 1px solid transparent;
+	border-radius: 5px;
+	outline: none;
+	width: 480px;
+	background: #f4f4f4;
+}
+
+.message textarea {
+	height: 150px;
+}
+
+.message input[type="submit"] {
+	padding: 10px 15px;
+	border: 2px solid transparent; 
+	border-radius: 5px;
+	font-weight: 900;
+	color: white;
+	background: #5fdcee;
+	width: 150px;
+}
+
+.message input[type="submit"]:hover,
+button:hover {
+	background-color: #09c0da;
+	color: white;
+	border: 2px solid #5fdcee; 
+}
 
