@@ -151,16 +151,19 @@ a.black, a:hover.black {
 	height: 48px;
 }
 
-.down a{
+a.down {
 	display: inline-block;
 	width: 48px;
 	height: 48px;
 	background: url('../images/spritesheet.png') -561px -5px no-repeat;
 	transition: none;
+	font-size: 8px;
+	color: transparent; 
 }
 
-.down a:hover {
+a:hover.down  {
 	background: url('../images/spritesheet.png') -619px -5px no-repeat;
+	color: transparent;
 }
 
 /* Logo */
@@ -306,6 +309,12 @@ main {padding-bottom: 35px;}
 	padding-top: 5px;
 	display: inline-block;
 }
+
+.social a,
+.social a:hover {
+	font-size: 8px;
+	color: transparent; 
+} 
 
 a.behance, 
 a.linkedin, 
